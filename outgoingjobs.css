@@ -1,0 +1,104 @@
+ul{
+
+  list-style: none;
+
+  padding: 0;
+
+  margin: 0;
+
+  background:#38acec;
+
+}
+
+ 
+
+ul li {
+
+  display: block;
+
+  position: relative;
+
+  float: left;
+
+  background: #38acec;
+
+}
+/*The CSS to hide the sub menus.*/
+
+
+li ul { display: none; background: #38acec;}
+
+ 
+
+ul li a {
+background: #38acec;
+
+  display: block;
+
+  padding: 1em;
+
+  text-decoration: none;
+
+  white-space: nowrap;
+
+  color: white;
+
+}
+
+ 
+
+ul li a:hover { background: white;color:cornflowerblue;
+border-radius:8px;
+ }
+/*Displays the dropdown menu on hover.*/
+
+
+li:hover > ul {
+
+  display: block;
+
+  position: absolute;
+
+}
+ 
+
+li:hover li { float: none; background: white;color:cornflowerblue;
+}
+
+ 
+
+li:hover a { background: #38acec; }
+
+ 
+
+li:hover li a:hover { background: black; }
+
+
+.main-navigation li ul li { border-top: 0; }
+/*Displays second level dropdown menus to the right of the first level dropdown menu.*/
+
+
+ul ul ul {
+
+  left: 100%;
+
+  top: 0;
+
+}
+/*Simple clearfix.*/
+
+
+ul:before,
+
+ul:after {
+
+  content: " "; /* 1 */
+
+  display: table; /* 2 */
+
+}
+
+ 
+
+ul:after { clear: both; }
+

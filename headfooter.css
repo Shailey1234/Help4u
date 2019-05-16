@@ -1,0 +1,72 @@
+
+            .header {
+			overflow:hidden;
+			background-color:#b3e0ff;
+			padding: 20px 10px;
+		}
+	.header a {
+		float: left;
+		color: #66b5ff;
+		text-align:center;
+		padding: 12px;
+		text-decoration:  none;
+		font-size: 18px;
+		line-height: 25px;
+ 		border-radius: 4px;
+		}
+	.header a.logo {
+			overflow:hidden;
+			display:block;
+			float:left;
+		}
+	.header-left {
+			float:right;
+		}
+
+	.header a:hover {
+		background-color:#ddd;
+		 color: #0084ff;
+		}
+	.header-right{
+		float:right;
+		}
+	.button1 {
+			background-color:#38acec;
+			border:none;
+			color: white;
+			padding: 20px;
+			text-align:center;
+			text-decoration:none;
+			display:inline-block;
+			font-size: 16px;
+			cursor:pointer;
+			float:left;
+		}
+			.buttonr {
+			background-color:#38acec;
+			border:none;
+			color: white;
+			padding: 20px;
+			text-align:center;
+			text-decoration:none;
+			display:inline-block;
+			font-size: 16px;
+			cursor:pointer;
+			float:left;
+		}
+	.roundbutton {
+			border-radius: 50%;
+                        float: left;
+		}
+	.roundbutton:hover {
+		background-color:#ddd;
+		 color: #0084ff;
+		}
+		.footer {
+			left: 0;
+			bottom: 0;
+			width: 100%;
+                        background-color: #b3e0ff;
+			color: black;
+			text-align: left;
+			}
